@@ -212,6 +212,7 @@ h4 {
   font-weight: 500;
   font-style: normal;
   font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 .container-md2 p {
   font-family: "Bitter", serif;
@@ -219,7 +220,15 @@ h4 {
   font-weight: 300;
   font-style: normal;
   font-size: 1.3rem;
+  letter-spacing: 0.1rem;
 }
+
+hr {
+  height: 0.2rem;
+  background-color: #000000;
+  margin-top: 50px;
+}
+
 .container-bt {
   display: flex;
   justify-content: center;
@@ -239,6 +248,7 @@ h4 {
   font-weight: 300;
   font-style: normal;
   font-size: 1.3rem;
+  letter-spacing: 0.1rem;
 }
 .fa {
   padding: 20px;
