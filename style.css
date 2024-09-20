@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 0;
+}
+.main > * {
+  flex-grow: 1; /* Makes the items grow to take up available space */
+  flex-shrink: 0; /* Prevents the items from shrinking */
+  min-width: 100%; /* Ensures the items take at least full width of the container */
+}
+.div {
+  width: 100%;
+  min-width: 100vw; /* Ensure the divs take at least the full width of the viewport */
+  flex-shrink: 0; /* Prevent the divs from shrinking */
+}
+.first {
+  background-color: #000000;
+  height: 650px;
+  padding: 60px;
+  width: 100%;
+  min-width: 100vw; /* Ensure each section stays at 100% of the viewport width */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+.second {
+  background-color: #f4dfc8;
+  height: 230px;
+  width: 100%;
+  min-width: 100vw; /* Ensure each section stays at 100% of the viewport width */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.third {
+  background-color: #f4eae0;
+  height: 1000px;
+  width: 100%;
+  min-width: 100vw; /* Ensure each section stays at 100% of the viewport width */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+.fourth {
+  background-color: #faf6f0;
+  height: 1400px;
+  width: 100%;
+  min-width: 100vw; /* Ensure each section stays at 100% of the viewport width */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+.container-mdl1 {
+  display: grid;
+  margin-top: 80px;
+  grid-template-columns: 580px 580px;
+  grid-template-rows: 400px 400px;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.container-mdl1 img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.mdl1-item {
+  position: relative;
+  width: 100%;
+}
+.mdl1-item:hover img {
+  opacity: 0.3;
+}
+
+.mdl1-item:hover .clickable {
+  opacity: 1;
+}
+.clickable {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #0f0f0f;
+  color: whitesmoke;
+  font-size: 21px;
+  padding: 16px 32px;
+}
+a:link {
+  color: snow;
+  font-weight: 500;
+}
+
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #faf6f0;
+}
+.eagle {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-top: 55px;
+  opacity: 0.5;
+}
+
+.left {
+  left: 100px;
+  top: 400px;
+}
+
+.right {
+  right: 100px;
+  top: 400px;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 40%;
+  object-fit: cover;
+}
+h1 {
+  display: block;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  letter-spacing: 0.3rem;
+}
+.resume {
+  margin-top: 80px;
+  color: #000000;
+  letter-spacing: 0.3rem;
+  font-size: 2.2rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 2.2rem;
+  margin-top: 50px;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Courier Prime", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 2.1rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 0.3rem;
+}
+.container-md2 {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 2rem;
+}
+.container-md2 img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+.container-md2 h5 {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.container-md2 p {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+.container-bt {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.bt-item {
+  align-self: center;
+  flex: 1;
+  width: 500px;
+  height: auto;
+  position: relative;
+}
+.bt-item p {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  position: absolute;
+  left: 150px;
+}
+.fa-snapchat-ghost {
+  background: #fffb00c0;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
+  left: 240px;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  position: absolute;
+  left: 330px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: whitesmoke;
+  }
+}
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.5rem; /* Adjust as needed */
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.fade-in-text {
+  animation: fadeIn 5s; /*fading in text effect */
+}
+
+footer {
+  background-color: #000000;
+  color: #f4eae0;
+  text-align: center;
+  padding: 5px;
+}
