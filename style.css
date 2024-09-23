@@ -9,15 +9,18 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
 }
 
 .div {
   flex: 1;
   min-width: 100vw;
+  width: 100%;
 }
 .first {
   background-color: #000000;
-  padding: 1%;
+  padding: 10px;
   align-self: center;
 }
 .second {
@@ -318,13 +321,13 @@ footer {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: whitesmoke;
-    padding: 0px 20px 0px 20px;
+    padding-left: 1px;
   }
 
   .eagle {
-    max-width: 150px;
+    width: 150px;
     height: 150px;
   }
 
@@ -336,13 +339,13 @@ footer {
     margin-right: 10px;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     letter-spacing: 0.3rem;
   }
   .resume {
     letter-spacing: 0.3rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 0px;
   }
