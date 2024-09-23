@@ -352,14 +352,14 @@ footer {
   }
   h2 {
     font-size: 1rem;
-
     letter-spacing: 0.3rem;
   }
   .resume {
     letter-spacing: 0.3rem;
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   h3 {
     font-size: 2rem;
