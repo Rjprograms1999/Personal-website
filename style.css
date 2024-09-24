@@ -326,10 +326,14 @@ footer {
     padding-block: 6%;
   }
 
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+  }
   .container-mdl1 {
     gap: 1rem;
     margin: 30px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.8fr;
   }
 
   h1 {
@@ -356,10 +360,12 @@ footer {
   }
   .resume {
     letter-spacing: 0.3rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   h3 {
     font-size: 2rem;
