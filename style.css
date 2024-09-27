@@ -355,9 +355,9 @@ footer {
   }
   .container-mdl1 {
     gap: 1rem;
-    margin: 30px;
+
     grid-template-columns: 1fr;
-    margin: 80px;
+    margin: 30px;
   }
   .item1 {
     grid-area: 1/1/2/3;
@@ -396,7 +396,7 @@ footer {
   }
   .resume {
     letter-spacing: 0.3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
