@@ -11,7 +11,17 @@
         color: orange;
         display: inline-block;
       }
-
+      a:link {
+        color: rgba(255, 250, 250, 0.815);
+      }
+      a:visited {
+        color: aliceblue;
+        background-color: transparent;
+      }
+      a:active {
+        color: azure;
+        background-color: transparent;
+      }
       body {
         margin: 0;
         font-size: 1.5rem;
@@ -19,9 +29,6 @@
         color: whitesmoke;
         padding-left: 30px;
         padding-right: 30px;
-      }
-      a:link {
-        color: rgba(255, 250, 250, 0.815);
       }
 
       hr {
@@ -33,7 +40,7 @@
   <body>
     <div>
       <h1>Abdullah Khan</h1>
-      <img src="./Abdullah.jpg" alt="Picture of Abdullah " height="190" width="190" />
+      <img src="./me.jpg" alt="Picture of Abdullah " height="190" width="190" />
 
       <hr />
 
@@ -118,8 +125,8 @@
 
       <h2><u>Other</u></h2>
       <ul>
-        <li><a href="./hobbies.html">Hobbies</a></li>
-        <li><a href="./Contact.html">Contact</a></li>
+        <li><a class="links" target="_blank" href="./hobbies.html">Hobbies</a></li>
+        <li><a class="links" target="_blank" href="./Contact.html">Contact</a></li>
       </ul>
 
       <hr />
